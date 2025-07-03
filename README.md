@@ -14,7 +14,7 @@ Built using PyTorch and pretrained models (ResNet18, DistilBERT), the architectu
 - `FusionModule`: MLP that merges image and text features into a shared 256-dim latent `z_shared`.
 - `CaptionDecoder`: GRU-based decoder for generating captions from `z_shared`.
 - `ImageDecoder`: Transposed-convolutional decoder to reconstruct the original image.
-- `train.py`: Training loop that minimizes both reconstruction loss (MSE) and caption loss (CrossEntropy).
+- `training`: Training loop that minimizes both reconstruction loss (MSE) and caption loss (CrossEntropy).
 
 ---
 ## Dataset
